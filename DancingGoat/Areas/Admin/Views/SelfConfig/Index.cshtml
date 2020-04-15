@@ -2,15 +2,15 @@
 @model DancingGoat.Areas.Admin.Models.IndexViewModel
 
 @{
-    ViewBag.Title = "MY Site—Configuration";
+    ViewBag.Title = "MY Sample Website";
 }
 
 @inject IOptionsSnapshot<AppConfiguration> Config
 
 <header>
-    <div class="content">
-        <h1>@ViewBag.Title</h1>
-        <p>For your sample app to work, you should have a Kentico Kontent project containing content. Your app should be then configured with its project ID. You can either get it by signing in using your Kentico Kontent credentials or by signing up for a trial. Later, it will be converted to a free plan.</p>
+    <div class="content" style="font-size: large; font-family: sans-serif">
+        <h1><p style="color:red">@ViewBag.Title</p></h1>
+        <p style="color:red">For your sample app to work, you should have a Kentico Kontent project containing content. Your app should be then configured with its project ID. You can either get it by signing in using your Kentico Kontent credentials or by signing up for a trial. Later, it will be converted to a free plan.</p>
     </div>
 </header>
 @{ await Html.RenderPartialAsync("~/Areas/Admin/Views/Shared/_MessagesPartial.cshtml");}
