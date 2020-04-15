@@ -1,4 +1,4 @@
-# Kentico Kontent sample ASP.NET Core MVC web application
+# MULTICLOUDE APPLICATION TESTING ON AWS AND AZURE
 [![Build status](https://ci.appveyor.com/api/projects/status/3b9v2fl52v4aiptk/branch/master?svg=true)](https://ci.appveyor.com/project/kentico/cloud-sample-app-net/branch/master)
 [![Stack Overflow](https://img.shields.io/badge/Stack%20Overflow-ASK%20NOW-FE7A16.svg?logo=stackoverflow&logoColor=white)](https://stackoverflow.com/tags/kentico-kontent)
 
